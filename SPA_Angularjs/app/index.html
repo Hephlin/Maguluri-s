@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+	
+	 <!-- Bootstrap Core CSS -->
+        <link href="styles/bootstrap.min.css" rel="stylesheet">
+		
+
+        <!-- Font Awesome CSS -->
+        <link href="styles/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+        <link href="styles/animate.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="styles/style.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		
+    
+
+
+        <!-- Template js -->
+        <script src="http://graygrids.com/demos/themes/elevator/js/jquery-2.1.1.min.js"></script>
+        <script src="http://graygrids.com/demos/themes/elevator/bootstrap/js/bootstrap.min.js"></script>
+        <script src="http://graygrids.com/demos/themes/elevator/js/jquery.appear.js"></script>
+        <script src="http://graygrids.com/demos/themes/elevator/js/contact_me.js"></script>
+        <script src="http://graygrids.com/demos/themes/elevator/js/jqBootstrapValidation.js"></script>
+        <script src="http://graygrids.com/demos/themes/elevator/js/modernizr.custom.js"></script>
+        <script src="http://graygrids.com/demos/themes/elevator/js/script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		
+
+       
+
+    
+  </head>
+  <body ng-app="myAppApp">
+   
+	<div id="home-mesage" class="visible-desktop visible-tablet visible-phone">
+	<!-- Start Logo Section -->
+        <section id="logo-section" class="text-center">
+		
+            <div class="container">
+                <div class="row">
+                    
+                        <div class="logo text-center">
+                            <h1>Hephlin C Maguluri</h1>
+                            <span>Front-end Developer & Web Designer</span>
+							<br><br>
+							<p>
+								<a href="https://www.facebook.com/profile.php?id=100008216946415" target="_blank">
+									<img src="http://static.viewbook.com/images/social_icons/facebook_32.png"/>
+								</a>
+								<a href="https://www.linkedin.com/pub/hephlin-maguluri/100/81b/aa8" target="_blank">
+									<img src="http://static.viewbook.com/images/social_icons/linkedin_32.png"/>
+								</a>
+								
+							<p>
+							
+								
+                        </div>
+						
+                </div>
+            </div>
+			
+        </section>
+        <!-- End Logo Section -->
+    <div class="container">
+    <div ng-view=""></div>
+    </div>
+
+    <!--<div class="footer">
+	       Start Copyright Section -->
+		
+		  
+		
+		  
+        <div class="copyright text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>&copy; 2015 H.Maguluri</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright Section 
+    </div>-->
+	</div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <!-- endbuild -->
+</body>
+</html>
